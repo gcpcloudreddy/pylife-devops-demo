@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sekhar_ops_pylife_devops_demo_1722858039570-pr-trigger-input-set
+  identifier: Build_sekhar_ops_pylife_devops_demo_1722858039570prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sekhar_ops_pylife_devops_demo_1722858039570
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
