@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sekhar_ops_pylife_devops_demo_1722858039570-push-trigger-input-set
+  identifier: Build_sekhar_ops_pylife_devops_demo_1722858039570pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sekhar_ops_pylife_devops_demo_1722858039570
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
